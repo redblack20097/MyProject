@@ -1,0 +1,89 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+li {
+  list-style: none;
+}
+header {
+  margin-top: -0.7%;
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 70px;
+}
+.ul1 {
+  display: flex;
+  justify-content: center;
+}
+.ul1 li {
+  margin-top: 1.5%;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+.SearchDiv {
+  float: left;
+  position: absolute;
+  left: 20%;
+  margin-top: 1.5%;
+  border: 0px;
+}
+.ul2 {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 1.5%;
+  right: 20%;
+}
+.ul2 li {
+  margin-left: 1%;
+  font-weight: 100;
+  margin-right: 20px;
+}
+.SecondBody {
+  width: 100%;
+  background-image: url("https://static.wixstatic.com/media/5bfb6f_26f1a5c736e544e09c63c82a4c792645~mv2_d_3839_1306_s_2.jpg/v1/fill/w_1825,h_475,al_b,q_85,usm_0.66_1.00_0.01/5bfb6f_26f1a5c736e544e09c63c82a4c792645~mv2_d_3839_1306_s_2.webp");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.Span1 {
+  float: right;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-right: 49%;
+  font-size: 18px;
+}
+.Span2 {
+  float: right;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-right: 40%;
+  font-size: 70px;
+  font-weight: 900;
+}
+.Span3 {
+  float: right;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-right: 40%;
+  font-size: 18px;
+  margin-top: 0.5%;
+}
+.home {
+  color: blue;
+}
+li:hover {
+  color: blue;
+}
+.search {
+  border: 0px;
+  border-bottom: 1px solid black;
+  background-color: #f2f2f2;
+  font-size: 16px;
+  outline: none;
+}
